@@ -1,4 +1,4 @@
-const CACHE_NAME = 'bribri-app-v1';
+const CACHE_NAME = 'bribri-app-v2';
 const urlsToCache = [
   './',
   './index.html',
