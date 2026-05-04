@@ -2,91 +2,3569 @@
   {
     "id": 1,
     "bribri": "Ishà",
-    "english": ["hello", "hi", "greetings"],
-    "spanish": ["hola", "saludos"],
-    "hebrew": ["שלום", "היי"],
-    "context": "General greeting used at any time of the day.",
+    "english": [
+      "hello",
+      "hi"
+    ],
+    "spanish": [
+      "hola",
+      "saludos"
+    ],
+    "hebrew": [
+      "שלום",
+      "היי"
+    ],
+    "context": "General greeting.",
     "category": "Greetings"
   },
   {
     "id": 2,
-    "bribri": "Ísh kibi bitú",
-    "english": ["thank you for coming", "welcome"],
-    "spanish": ["gracias por venir", "bienvenido"],
-    "hebrew": ["תודה שבאתם", "ברוכים הבאים"],
-    "context": "Used to show gratitude when someone arrives.",
+    "bribri": "Bua' ye'?",
+    "english": [
+      "how are you?"
+    ],
+    "spanish": [
+      "¿cómo estás?"
+    ],
+    "hebrew": [
+      "מה שלומך?"
+    ],
+    "context": "Asking about well-being.",
     "category": "Greetings"
   },
   {
     "id": 3,
-    "bribri": "Bua' ye'?",
-    "english": ["how are you?", "how are you doing?"],
-    "spanish": ["¿cómo estás?", "¿cómo te va?"],
-    "hebrew": ["מה שלומך?", "איך אתה?"],
-    "context": "Common way to ask someone how they are.",
+    "bribri": "Bua'",
+    "english": [
+      "good",
+      "fine"
+    ],
+    "spanish": [
+      "bien",
+      "bueno"
+    ],
+    "hebrew": [
+      "טוב",
+      "בסדר"
+    ],
+    "context": "Response to how are you.",
     "category": "Greetings"
   },
   {
     "id": 4,
-    "bribri": "Bua'",
-    "english": ["good", "well", "fine"],
-    "spanish": ["bien", "bueno"],
-    "hebrew": ["טוב", "בסדר"],
-    "context": "Response to 'how are you?' meaning fine or good.",
+    "bribri": "Wëstëla",
+    "english": [
+      "good morning"
+    ],
+    "spanish": [
+      "buenos días"
+    ],
+    "hebrew": [
+      "בוקר טוב"
+    ],
+    "context": "Morning greeting.",
     "category": "Greetings"
   },
   {
     "id": 5,
-    "bribri": "Awá",
-    "english": ["shaman", "doctor", "healer"],
-    "spanish": ["chamán", "médico", "curandero"],
-    "hebrew": ["שאמאן", "רופא", "מרפא"],
-    "context": "A traditional healer and spiritual leader in the Bribri community.",
-    "category": "People"
+    "bribri": "Ísh kibi bitú",
+    "english": [
+      "welcome"
+    ],
+    "spanish": [
+      "bienvenido"
+    ],
+    "hebrew": [
+      "ברוכים הבאים"
+    ],
+    "context": "Welcoming someone.",
+    "category": "Greetings"
   },
   {
     "id": 6,
-    "bribri": "Di'",
-    "english": ["water", "river"],
-    "spanish": ["agua", "río"],
-    "hebrew": ["מים", "נהר"],
-    "context": "Refers to water in general or a river.",
-    "category": "Nature"
+    "bribri": "Wëstëla bua'",
+    "english": [
+      "good evening"
+    ],
+    "spanish": [
+      "buenas tardes"
+    ],
+    "hebrew": [
+      "ערב טוב"
+    ],
+    "context": "Evening greeting.",
+    "category": "Greetings"
   },
   {
     "id": 7,
-    "bribri": "Tsirú",
-    "english": ["cacao", "chocolate"],
-    "spanish": ["cacao", "chocolate"],
-    "hebrew": ["קקאו", "שוקולד"],
-    "context": "A sacred plant for the Bribri, used in ceremonies and daily life.",
-    "category": "Food"
+    "bribri": "Këkëpa",
+    "english": [
+      "elder",
+      "sir"
+    ],
+    "spanish": [
+      "anciano",
+      "señor"
+    ],
+    "hebrew": [
+      "זקן",
+      "אדון"
+    ],
+    "context": "Respectful term for an older man.",
+    "category": "People"
   },
   {
     "id": 8,
-    "bribri": "Ù",
-    "english": ["house", "home"],
-    "spanish": ["casa", "hogar"],
-    "hebrew": ["בית"],
-    "context": "Refers to a dwelling.",
-    "category": "Home"
+    "bribri": "Dö",
+    "english": [
+      "yes"
+    ],
+    "spanish": [
+      "sí"
+    ],
+    "hebrew": [
+      "כן"
+    ],
+    "context": "Affirmative.",
+    "category": "Greetings"
   },
   {
     "id": 9,
+    "bribri": "Kë'",
+    "english": [
+      "no"
+    ],
+    "spanish": [
+      "no"
+    ],
+    "hebrew": [
+      "לא"
+    ],
+    "context": "Negative.",
+    "category": "Greetings"
+  },
+  {
+    "id": 10,
+    "bribri": "Ísh",
+    "english": [
+      "thank you"
+    ],
+    "spanish": [
+      "gracias"
+    ],
+    "hebrew": [
+      "תודה"
+    ],
+    "context": "Expressing gratitude.",
+    "category": "Greetings"
+  },
+  {
+    "id": 11,
+    "bribri": "Di'",
+    "english": [
+      "water",
+      "river"
+    ],
+    "spanish": [
+      "agua",
+      "río"
+    ],
+    "hebrew": [
+      "מים",
+      "נהר"
+    ],
+    "context": "Water in general.",
+    "category": "Nature"
+  },
+  {
+    "id": 12,
+    "bribri": "Kkö",
+    "english": [
+      "sun"
+    ],
+    "spanish": [
+      "sol"
+    ],
+    "hebrew": [
+      "שמש"
+    ],
+    "context": "The sun.",
+    "category": "Nature"
+  },
+  {
+    "id": 13,
+    "bribri": "Tór",
+    "english": [
+      "moon"
+    ],
+    "spanish": [
+      "luna"
+    ],
+    "hebrew": [
+      "ירח"
+    ],
+    "context": "The moon.",
+    "category": "Nature"
+  },
+  {
+    "id": 14,
+    "bribri": "Sula'",
+    "english": [
+      "star"
+    ],
+    "spanish": [
+      "estrella"
+    ],
+    "hebrew": [
+      "כוכב"
+    ],
+    "context": "A star in the sky.",
+    "category": "Nature"
+  },
+  {
+    "id": 15,
+    "bribri": "Kách",
+    "english": [
+      "earth",
+      "dirt"
+    ],
+    "spanish": [
+      "tierra",
+      "suelo"
+    ],
+    "hebrew": [
+      "אדמה"
+    ],
+    "context": "The ground or earth.",
+    "category": "Nature"
+  },
+  {
+    "id": 16,
+    "bribri": "Wöbäl",
+    "english": [
+      "mountain"
+    ],
+    "spanish": [
+      "montaña"
+    ],
+    "hebrew": [
+      "הר"
+    ],
+    "context": "A mountain or large hill.",
+    "category": "Nature"
+  },
+  {
+    "id": 17,
+    "bribri": "Kköch",
+    "english": [
+      "fire"
+    ],
+    "spanish": [
+      "fuego"
+    ],
+    "hebrew": [
+      "אש"
+    ],
+    "context": "Fire for cooking or warmth.",
+    "category": "Nature"
+  },
+  {
+    "id": 18,
+    "bribri": "Tsië",
+    "english": [
+      "rain"
+    ],
+    "spanish": [
+      "lluvia"
+    ],
+    "hebrew": [
+      "גשם"
+    ],
+    "context": "Precipitation.",
+    "category": "Nature"
+  },
+  {
+    "id": 19,
+    "bribri": "Yök",
+    "english": [
+      "wind"
+    ],
+    "spanish": [
+      "viento"
+    ],
+    "hebrew": [
+      "רוח"
+    ],
+    "context": "The wind.",
+    "category": "Nature"
+  },
+  {
+    "id": 20,
+    "bribri": "Kkö̀k",
+    "english": [
+      "stone",
+      "rock"
+    ],
+    "spanish": [
+      "piedra",
+      "roca"
+    ],
+    "hebrew": [
+      "אבן",
+      "סלע"
+    ],
+    "context": "A stone.",
+    "category": "Nature"
+  },
+  {
+    "id": 21,
+    "bribri": "Kàl",
+    "english": [
+      "tree"
+    ],
+    "spanish": [
+      "árbol"
+    ],
+    "hebrew": [
+      "עץ"
+    ],
+    "context": "A living tree.",
+    "category": "Nature"
+  },
+  {
+    "id": 22,
+    "bribri": "Àsh",
+    "english": [
+      "leaf"
+    ],
+    "spanish": [
+      "hoja"
+    ],
+    "hebrew": [
+      "עלה"
+    ],
+    "context": "Leaf of a plant.",
+    "category": "Nature"
+  },
+  {
+    "id": 23,
+    "bribri": "Käl",
+    "english": [
+      "forest",
+      "jungle"
+    ],
+    "spanish": [
+      "bosque",
+      "selva"
+    ],
+    "hebrew": [
+      "יער",
+      "ג'ונגל"
+    ],
+    "context": "The wild forest.",
+    "category": "Nature"
+  },
+  {
+    "id": 24,
+    "bribri": "Dikú",
+    "english": [
+      "river"
+    ],
+    "spanish": [
+      "río"
+    ],
+    "hebrew": [
+      "נהר"
+    ],
+    "context": "Flowing water.",
+    "category": "Nature"
+  },
+  {
+    "id": 25,
+    "bribri": "Tsurú",
+    "english": [
+      "cloud"
+    ],
+    "spanish": [
+      "nube"
+    ],
+    "hebrew": [
+      "ענן"
+    ],
+    "context": "Cloud in the sky.",
+    "category": "Nature"
+  },
+  {
+    "id": 26,
+    "bribri": "Plù",
+    "english": [
+      "flower"
+    ],
+    "spanish": [
+      "flor"
+    ],
+    "hebrew": [
+      "פרח"
+    ],
+    "context": "A blooming flower.",
+    "category": "Nature"
+  },
+  {
+    "id": 27,
+    "bribri": "Kàl kë'",
+    "english": [
+      "root"
+    ],
+    "spanish": [
+      "raíz"
+    ],
+    "hebrew": [
+      "שורש"
+    ],
+    "context": "Tree root.",
+    "category": "Nature"
+  },
+  {
+    "id": 28,
+    "bribri": "Dì",
+    "english": [
+      "sand"
+    ],
+    "spanish": [
+      "arena"
+    ],
+    "hebrew": [
+      "חול"
+    ],
+    "context": "Sand near water.",
+    "category": "Nature"
+  },
+  {
+    "id": 29,
+    "bribri": "Mök",
+    "english": [
+      "mud"
+    ],
+    "spanish": [
+      "barro"
+    ],
+    "hebrew": [
+      "בוץ"
+    ],
+    "context": "Wet dirt.",
+    "category": "Nature"
+  },
+  {
+    "id": 30,
+    "bribri": "Kë'",
+    "english": [
+      "seed"
+    ],
+    "spanish": [
+      "semilla"
+    ],
+    "hebrew": [
+      "זרע"
+    ],
+    "context": "Plant seed.",
+    "category": "Nature"
+  },
+  {
+    "id": 31,
+    "bribri": "Mì",
+    "english": [
+      "sky"
+    ],
+    "spanish": [
+      "cielo"
+    ],
+    "hebrew": [
+      "שמיים"
+    ],
+    "context": "The sky above.",
+    "category": "Nature"
+  },
+  {
+    "id": 32,
+    "bribri": "Dìk",
+    "english": [
+      "lake"
+    ],
+    "spanish": [
+      "lago"
+    ],
+    "hebrew": [
+      "אגם"
+    ],
+    "context": "Body of water.",
+    "category": "Nature"
+  },
+  {
+    "id": 33,
+    "bribri": "Wàl",
+    "english": [
+      "valley"
+    ],
+    "spanish": [
+      "valle"
+    ],
+    "hebrew": [
+      "עמק"
+    ],
+    "context": "Low area between mountains.",
+    "category": "Nature"
+  },
+  {
+    "id": 34,
+    "bribri": "Namú",
+    "english": [
+      "jaguar",
+      "feline"
+    ],
+    "spanish": [
+      "jaguar",
+      "felino"
+    ],
+    "hebrew": [
+      "יגואר"
+    ],
+    "context": "Sacred feline.",
+    "category": "Animals"
+  },
+  {
+    "id": 35,
+    "bribri": "Bëkili",
+    "english": [
+      "tapir"
+    ],
+    "spanish": [
+      "danta",
+      "tapir"
+    ],
+    "hebrew": [
+      "טפיר"
+    ],
+    "context": "Large forest animal.",
+    "category": "Animals"
+  },
+  {
+    "id": 36,
     "bribri": "Dakarò",
-    "english": ["chicken", "hen"],
-    "spanish": ["gallina", "pollo"],
-    "hebrew": ["תרנגולת", "עוף"],
+    "english": [
+      "chicken",
+      "hen"
+    ],
+    "spanish": [
+      "gallina"
+    ],
+    "hebrew": [
+      "תרנגולת"
+    ],
     "context": "Domestic fowl.",
     "category": "Animals"
   },
   {
-    "id": 10,
-    "bribri": "Namú",
-    "english": ["jaguar", "feline"],
-    "spanish": ["jaguar", "felino"],
-    "hebrew": ["יגואר", "חתול"],
-    "context": "The jaguar, an important animal in Bribri cosmology.",
+    "id": 37,
+    "bribri": "Mích",
+    "english": [
+      "cat"
+    ],
+    "spanish": [
+      "gato"
+    ],
+    "hebrew": [
+      "חתול"
+    ],
+    "context": "Domestic cat.",
     "category": "Animals"
+  },
+  {
+    "id": 38,
+    "bribri": "Tsí",
+    "english": [
+      "dog"
+    ],
+    "spanish": [
+      "perro"
+    ],
+    "hebrew": [
+      "כלב"
+    ],
+    "context": "Domestic dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 39,
+    "bribri": "Duö",
+    "english": [
+      "bird"
+    ],
+    "spanish": [
+      "pájaro",
+      "ave"
+    ],
+    "hebrew": [
+      "ציפור"
+    ],
+    "context": "Flying animal.",
+    "category": "Animals"
+  },
+  {
+    "id": 40,
+    "bribri": "Bö",
+    "english": [
+      "snake"
+    ],
+    "spanish": [
+      "serpiente",
+      "culebra"
+    ],
+    "hebrew": [
+      "נחש"
+    ],
+    "context": "Reptile.",
+    "category": "Animals"
+  },
+  {
+    "id": 41,
+    "bribri": "Kòl",
+    "english": [
+      "frog"
+    ],
+    "spanish": [
+      "rana"
+    ],
+    "hebrew": [
+      "צפרדע"
+    ],
+    "context": "Amphibian.",
+    "category": "Animals"
+  },
+  {
+    "id": 42,
+    "bribri": "Tsi",
+    "english": [
+      "fish"
+    ],
+    "spanish": [
+      "pez",
+      "pescado"
+    ],
+    "hebrew": [
+      "דג"
+    ],
+    "context": "Aquatic animal.",
+    "category": "Animals"
+  },
+  {
+    "id": 43,
+    "bribri": "Mąkë",
+    "english": [
+      "macaw"
+    ],
+    "spanish": [
+      "lapa",
+      "guacamaya"
+    ],
+    "hebrew": [
+      "תוכי מקאו"
+    ],
+    "context": "Colorful bird.",
+    "category": "Animals"
+  },
+  {
+    "id": 44,
+    "bribri": "Ùrö",
+    "english": [
+      "monkey"
+    ],
+    "spanish": [
+      "mono"
+    ],
+    "hebrew": [
+      "קוף"
+    ],
+    "context": "Primate.",
+    "category": "Animals"
+  },
+  {
+    "id": 45,
+    "bribri": "Dìbë",
+    "english": [
+      "turtle"
+    ],
+    "spanish": [
+      "tortuga"
+    ],
+    "hebrew": [
+      "צב"
+    ],
+    "context": "Shelled reptile.",
+    "category": "Animals"
+  },
+  {
+    "id": 46,
+    "bribri": "Sú",
+    "english": [
+      "deer"
+    ],
+    "spanish": [
+      "venado"
+    ],
+    "hebrew": [
+      "צבי"
+    ],
+    "context": "Forest mammal.",
+    "category": "Animals"
+  },
+  {
+    "id": 47,
+    "bribri": "Krö",
+    "english": [
+      "spider"
+    ],
+    "spanish": [
+      "araña"
+    ],
+    "hebrew": [
+      "עכביש"
+    ],
+    "context": "Arachnid.",
+    "category": "Animals"
+  },
+  {
+    "id": 48,
+    "bribri": "Ták",
+    "english": [
+      "ant"
+    ],
+    "spanish": [
+      "hormiga"
+    ],
+    "hebrew": [
+      "נמלה"
+    ],
+    "context": "Insect.",
+    "category": "Animals"
+  },
+  {
+    "id": 49,
+    "bribri": "Bù",
+    "english": [
+      "butterfly"
+    ],
+    "spanish": [
+      "mariposa"
+    ],
+    "hebrew": [
+      "פרפר"
+    ],
+    "context": "Flying insect.",
+    "category": "Animals"
+  },
+  {
+    "id": 50,
+    "bribri": "Shkö",
+    "english": [
+      "pig"
+    ],
+    "spanish": [
+      "cerdo"
+    ],
+    "hebrew": [
+      "חזיר"
+    ],
+    "context": "Domestic pig.",
+    "category": "Animals"
+  },
+  {
+    "id": 51,
+    "bribri": "Pë'",
+    "english": [
+      "horse"
+    ],
+    "spanish": [
+      "caballo"
+    ],
+    "hebrew": [
+      "סוס"
+    ],
+    "context": "Equine.",
+    "category": "Animals"
+  },
+  {
+    "id": 52,
+    "bribri": "Tulu",
+    "english": [
+      "cow"
+    ],
+    "spanish": [
+      "vaca"
+    ],
+    "hebrew": [
+      "פרה"
+    ],
+    "context": "Bovine.",
+    "category": "Animals"
+  },
+  {
+    "id": 53,
+    "bribri": "Yk",
+    "english": [
+      "bat"
+    ],
+    "spanish": [
+      "murciélago"
+    ],
+    "hebrew": [
+      "עטלף"
+    ],
+    "context": "Flying mammal.",
+    "category": "Animals"
+  },
+  {
+    "id": 54,
+    "bribri": "Kkäl",
+    "english": [
+      "sloth"
+    ],
+    "spanish": [
+      "perezoso"
+    ],
+    "hebrew": [
+      "עצלן"
+    ],
+    "context": "Slow-moving tree mammal.",
+    "category": "Animals"
+  },
+  {
+    "id": 55,
+    "bribri": "Shì",
+    "english": [
+      "puma"
+    ],
+    "spanish": [
+      "puma"
+    ],
+    "hebrew": [
+      "פומה"
+    ],
+    "context": "Mountain lion.",
+    "category": "Animals"
+  },
+  {
+    "id": 56,
+    "bribri": "Wë",
+    "english": [
+      "bee"
+    ],
+    "spanish": [
+      "abeja"
+    ],
+    "hebrew": [
+      "דבורה"
+    ],
+    "context": "Honey-producing insect.",
+    "category": "Animals"
+  },
+  {
+    "id": 57,
+    "bribri": "Jë",
+    "english": [
+      "mosquito"
+    ],
+    "spanish": [
+      "zancudo",
+      "mosquito"
+    ],
+    "hebrew": [
+      "יתוש"
+    ],
+    "context": "Biting insect.",
+    "category": "Animals"
+  },
+  {
+    "id": 58,
+    "bribri": "Wö",
+    "english": [
+      "head"
+    ],
+    "spanish": [
+      "cabeza"
+    ],
+    "hebrew": [
+      "ראש"
+    ],
+    "context": "Body part.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 59,
+    "bribri": "Wöchà",
+    "english": [
+      "hair"
+    ],
+    "spanish": [
+      "cabello",
+      "pelo"
+    ],
+    "hebrew": [
+      "שיער"
+    ],
+    "context": "Head hair.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 60,
+    "bribri": "Wöku",
+    "english": [
+      "eye"
+    ],
+    "spanish": [
+      "ojo"
+    ],
+    "hebrew": [
+      "עין"
+    ],
+    "context": "Organ of sight.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 61,
+    "bribri": "Kukó",
+    "english": [
+      "ear"
+    ],
+    "spanish": [
+      "oreja"
+    ],
+    "hebrew": [
+      "אוזן"
+    ],
+    "context": "Organ of hearing.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 62,
+    "bribri": "Jikù",
+    "english": [
+      "nose"
+    ],
+    "spanish": [
+      "nariz"
+    ],
+    "hebrew": [
+      "אף"
+    ],
+    "context": "Organ of smell.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 63,
+    "bribri": "Kkö",
+    "english": [
+      "mouth"
+    ],
+    "spanish": [
+      "boca"
+    ],
+    "hebrew": [
+      "פה"
+    ],
+    "context": "Oral cavity.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 64,
+    "bribri": "Kà",
+    "english": [
+      "tooth"
+    ],
+    "spanish": [
+      "diente"
+    ],
+    "hebrew": [
+      "שן"
+    ],
+    "context": "Dental.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 65,
+    "bribri": "Tsö",
+    "english": [
+      "tongue"
+    ],
+    "spanish": [
+      "lengua"
+    ],
+    "hebrew": [
+      "לשון"
+    ],
+    "context": "Muscle in mouth.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 66,
+    "bribri": "Tà",
+    "english": [
+      "hand"
+    ],
+    "spanish": [
+      "mano"
+    ],
+    "hebrew": [
+      "יד"
+    ],
+    "context": "Upper extremity.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 67,
+    "bribri": "Bà",
+    "english": [
+      "foot"
+    ],
+    "spanish": [
+      "pie"
+    ],
+    "hebrew": [
+      "רגל"
+    ],
+    "context": "Lower extremity.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 68,
+    "bribri": "Krö",
+    "english": [
+      "blood"
+    ],
+    "spanish": [
+      "sangre"
+    ],
+    "hebrew": [
+      "דם"
+    ],
+    "context": "Bodily fluid.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 69,
+    "bribri": "Mö",
+    "english": [
+      "bone"
+    ],
+    "spanish": [
+      "hueso"
+    ],
+    "hebrew": [
+      "עצם"
+    ],
+    "context": "Skeleton part.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 70,
+    "bribri": "Kù",
+    "english": [
+      "skin"
+    ],
+    "spanish": [
+      "piel"
+    ],
+    "hebrew": [
+      "עור"
+    ],
+    "context": "Outer layer.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 71,
+    "bribri": "Pö",
+    "english": [
+      "stomach"
+    ],
+    "spanish": [
+      "estómago"
+    ],
+    "hebrew": [
+      "בטן"
+    ],
+    "context": "Digestive organ.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 72,
+    "bribri": "Chö",
+    "english": [
+      "chest"
+    ],
+    "spanish": [
+      "pecho"
+    ],
+    "hebrew": [
+      "חזה"
+    ],
+    "context": "Upper torso.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 73,
+    "bribri": "Tsì",
+    "english": [
+      "back"
+    ],
+    "spanish": [
+      "espalda"
+    ],
+    "hebrew": [
+      "גב"
+    ],
+    "context": "Rear of torso.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 74,
+    "bribri": "Të",
+    "english": [
+      "arm"
+    ],
+    "spanish": [
+      "brazo"
+    ],
+    "hebrew": [
+      "זרוע"
+    ],
+    "context": "Upper limb.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 75,
+    "bribri": "Kë",
+    "english": [
+      "leg"
+    ],
+    "spanish": [
+      "pierna"
+    ],
+    "hebrew": [
+      "רגל (גפה)"
+    ],
+    "context": "Lower limb.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 76,
+    "bribri": "Pú",
+    "english": [
+      "heart"
+    ],
+    "spanish": [
+      "corazón"
+    ],
+    "hebrew": [
+      "לב"
+    ],
+    "context": "Pumping organ.",
+    "category": "Body Parts"
+  },
+  {
+    "id": 77,
+    "bribri": "Awá",
+    "english": [
+      "shaman",
+      "doctor"
+    ],
+    "spanish": [
+      "chamán",
+      "médico"
+    ],
+    "hebrew": [
+      "שאמאן",
+      "רופא"
+    ],
+    "context": "Spiritual leader.",
+    "category": "People"
+  },
+  {
+    "id": 78,
+    "bribri": "Yë́",
+    "english": [
+      "father"
+    ],
+    "spanish": [
+      "padre",
+      "papá"
+    ],
+    "hebrew": [
+      "אבא",
+      "אב"
+    ],
+    "context": "Male parent.",
+    "category": "Family"
+  },
+  {
+    "id": 79,
+    "bribri": "Amí",
+    "english": [
+      "mother"
+    ],
+    "spanish": [
+      "madre",
+      "mamá"
+    ],
+    "hebrew": [
+      "אמא",
+      "אם"
+    ],
+    "context": "Female parent.",
+    "category": "Family"
+  },
+  {
+    "id": 80,
+    "bribri": "Alà",
+    "english": [
+      "child",
+      "son",
+      "daughter"
+    ],
+    "spanish": [
+      "hijo",
+      "niño"
+    ],
+    "hebrew": [
+      "ילד",
+      "בן"
+    ],
+    "context": "Offspring.",
+    "category": "Family"
+  },
+  {
+    "id": 81,
+    "bribri": "Tsië",
+    "english": [
+      "grandfather"
+    ],
+    "spanish": [
+      "abuelo"
+    ],
+    "hebrew": [
+      "סבא"
+    ],
+    "context": "Older male relative.",
+    "category": "Family"
+  },
+  {
+    "id": 82,
+    "bribri": "Dä",
+    "english": [
+      "grandmother"
+    ],
+    "spanish": [
+      "abuela"
+    ],
+    "hebrew": [
+      "סבתא"
+    ],
+    "context": "Older female relative.",
+    "category": "Family"
+  },
+  {
+    "id": 83,
+    "bribri": "Kë́",
+    "english": [
+      "brother"
+    ],
+    "spanish": [
+      "hermano"
+    ],
+    "hebrew": [
+      "אח"
+    ],
+    "context": "Male sibling.",
+    "category": "Family"
+  },
+  {
+    "id": 84,
+    "bribri": "Tà",
+    "english": [
+      "sister"
+    ],
+    "spanish": [
+      "hermana"
+    ],
+    "hebrew": [
+      "אחות"
+    ],
+    "context": "Female sibling.",
+    "category": "Family"
+  },
+  {
+    "id": 85,
+    "bribri": "Wëm",
+    "english": [
+      "man"
+    ],
+    "spanish": [
+      "hombre"
+    ],
+    "hebrew": [
+      "איש",
+      "גבר"
+    ],
+    "context": "Adult male.",
+    "category": "People"
+  },
+  {
+    "id": 86,
+    "bribri": "Alàköl",
+    "english": [
+      "woman"
+    ],
+    "spanish": [
+      "mujer"
+    ],
+    "hebrew": [
+      "אישה"
+    ],
+    "context": "Adult female.",
+    "category": "People"
+  },
+  {
+    "id": 87,
+    "bribri": "Kól",
+    "english": [
+      "person"
+    ],
+    "spanish": [
+      "persona"
+    ],
+    "hebrew": [
+      "אדם"
+    ],
+    "context": "Human being.",
+    "category": "People"
+  },
+  {
+    "id": 88,
+    "bribri": "Tsirúbä",
+    "english": [
+      "baby"
+    ],
+    "spanish": [
+      "bebé"
+    ],
+    "hebrew": [
+      "תינוק"
+    ],
+    "context": "Infant.",
+    "category": "Family"
+  },
+  {
+    "id": 89,
+    "bribri": "Ditsö",
+    "english": [
+      "indigenous person",
+      "seed"
+    ],
+    "spanish": [
+      "indígena",
+      "semilla"
+    ],
+    "hebrew": [
+      "יליד",
+      "זרע"
+    ],
+    "context": "Bribri people.",
+    "category": "People"
+  },
+  {
+    "id": 90,
+    "bribri": "Pëk",
+    "english": [
+      "friend"
+    ],
+    "spanish": [
+      "amigo"
+    ],
+    "hebrew": [
+      "חבר"
+    ],
+    "context": "Close companion.",
+    "category": "People"
+  },
+  {
+    "id": 91,
+    "bribri": "Ñë",
+    "english": [
+      "enemy"
+    ],
+    "spanish": [
+      "enemigo"
+    ],
+    "hebrew": [
+      "אויב"
+    ],
+    "context": "Opponent.",
+    "category": "People"
+  },
+  {
+    "id": 92,
+    "bribri": "Tsirú",
+    "english": [
+      "cacao",
+      "chocolate"
+    ],
+    "spanish": [
+      "cacao",
+      "chocolate"
+    ],
+    "hebrew": [
+      "קקאו",
+      "שוקולד"
+    ],
+    "context": "Sacred plant.",
+    "category": "Food"
+  },
+  {
+    "id": 93,
+    "bribri": "Skà",
+    "english": [
+      "corn",
+      "maize"
+    ],
+    "spanish": [
+      "maíz"
+    ],
+    "hebrew": [
+      "תירס"
+    ],
+    "context": "Staple crop.",
+    "category": "Food"
+  },
+  {
+    "id": 94,
+    "bribri": "Iwö",
+    "english": [
+      "beans"
+    ],
+    "spanish": [
+      "frijoles"
+    ],
+    "hebrew": [
+      "שעועית"
+    ],
+    "context": "Staple food.",
+    "category": "Food"
+  },
+  {
+    "id": 95,
+    "bribri": "Pík",
+    "english": [
+      "squash"
+    ],
+    "spanish": [
+      "calabaza"
+    ],
+    "hebrew": [
+      "דלעת"
+    ],
+    "context": "Vegetable.",
+    "category": "Food"
+  },
+  {
+    "id": 96,
+    "bribri": "Chích",
+    "english": [
+      "chicha",
+      "fermented drink"
+    ],
+    "spanish": [
+      "chicha"
+    ],
+    "hebrew": [
+      "משקה מותסס"
+    ],
+    "context": "Traditional drink.",
+    "category": "Food"
+  },
+  {
+    "id": 97,
+    "bribri": "Ñö",
+    "english": [
+      "meat"
+    ],
+    "spanish": [
+      "carne"
+    ],
+    "hebrew": [
+      "בשר"
+    ],
+    "context": "Animal flesh.",
+    "category": "Food"
+  },
+  {
+    "id": 98,
+    "bribri": "Kë'",
+    "english": [
+      "plantain"
+    ],
+    "spanish": [
+      "plátano"
+    ],
+    "hebrew": [
+      "פלנטיין",
+      "בננה"
+    ],
+    "context": "Cooking banana.",
+    "category": "Food"
+  },
+  {
+    "id": 99,
+    "bribri": "Dkë",
+    "english": [
+      "banana"
+    ],
+    "spanish": [
+      "banano"
+    ],
+    "hebrew": [
+      "בננה"
+    ],
+    "context": "Sweet fruit.",
+    "category": "Food"
+  },
+  {
+    "id": 100,
+    "bribri": "Të",
+    "english": [
+      "yucca",
+      "cassava"
+    ],
+    "spanish": [
+      "yuca"
+    ],
+    "hebrew": [
+      "יוקה",
+      "מניהוט"
+    ],
+    "context": "Root vegetable.",
+    "category": "Food"
+  },
+  {
+    "id": 101,
+    "bribri": "Pë",
+    "english": [
+      "potato"
+    ],
+    "spanish": [
+      "papa"
+    ],
+    "hebrew": [
+      "תפוח אדמה"
+    ],
+    "context": "Tuber.",
+    "category": "Food"
+  },
+  {
+    "id": 102,
+    "bribri": "Kì",
+    "english": [
+      "chili pepper"
+    ],
+    "spanish": [
+      "chile"
+    ],
+    "hebrew": [
+      "צ'ילי",
+      "פלפל חריף"
+    ],
+    "context": "Spicy food.",
+    "category": "Food"
+  },
+  {
+    "id": 103,
+    "bribri": "Mö",
+    "english": [
+      "salt"
+    ],
+    "spanish": [
+      "sal"
+    ],
+    "hebrew": [
+      "מלח"
+    ],
+    "context": "Seasoning.",
+    "category": "Food"
+  },
+  {
+    "id": 104,
+    "bribri": "Kök",
+    "english": [
+      "sugar"
+    ],
+    "spanish": [
+      "azúcar"
+    ],
+    "hebrew": [
+      "סוכר"
+    ],
+    "context": "Sweetener.",
+    "category": "Food"
+  },
+  {
+    "id": 105,
+    "bribri": "Plù",
+    "english": [
+      "fruit"
+    ],
+    "spanish": [
+      "fruta"
+    ],
+    "hebrew": [
+      "פרי"
+    ],
+    "context": "Edible plant part.",
+    "category": "Food"
+  },
+  {
+    "id": 106,
+    "bribri": "Tö",
+    "english": [
+      "milk"
+    ],
+    "spanish": [
+      "leche"
+    ],
+    "hebrew": [
+      "חלב"
+    ],
+    "context": "Dairy.",
+    "category": "Food"
+  },
+  {
+    "id": 107,
+    "bribri": "Kkù",
+    "english": [
+      "egg"
+    ],
+    "spanish": [
+      "huevo"
+    ],
+    "hebrew": [
+      "ביצה"
+    ],
+    "context": "Bird product.",
+    "category": "Food"
+  },
+  {
+    "id": 108,
+    "bribri": "Bötäl",
+    "english": [
+      "white"
+    ],
+    "spanish": [
+      "blanco"
+    ],
+    "hebrew": [
+      "לבן"
+    ],
+    "context": "Color.",
+    "category": "Colors"
+  },
+  {
+    "id": 109,
+    "bribri": "Tsö",
+    "english": [
+      "black"
+    ],
+    "spanish": [
+      "negro"
+    ],
+    "hebrew": [
+      "שחור"
+    ],
+    "context": "Color.",
+    "category": "Colors"
+  },
+  {
+    "id": 110,
+    "bribri": "Më",
+    "english": [
+      "red"
+    ],
+    "spanish": [
+      "rojo"
+    ],
+    "hebrew": [
+      "אדום"
+    ],
+    "context": "Color.",
+    "category": "Colors"
+  },
+  {
+    "id": 111,
+    "bribri": "Tö",
+    "english": [
+      "green"
+    ],
+    "spanish": [
+      "verde"
+    ],
+    "hebrew": [
+      "ירוק"
+    ],
+    "context": "Color.",
+    "category": "Colors"
+  },
+  {
+    "id": 112,
+    "bribri": "Së",
+    "english": [
+      "yellow"
+    ],
+    "spanish": [
+      "amarillo"
+    ],
+    "hebrew": [
+      "צהוב"
+    ],
+    "context": "Color.",
+    "category": "Colors"
+  },
+  {
+    "id": 113,
+    "bribri": "Bö",
+    "english": [
+      "blue"
+    ],
+    "spanish": [
+      "azul"
+    ],
+    "hebrew": [
+      "כחול"
+    ],
+    "context": "Color.",
+    "category": "Colors"
+  },
+  {
+    "id": 114,
+    "bribri": "Mä",
+    "english": [
+      "big",
+      "large"
+    ],
+    "spanish": [
+      "grande"
+    ],
+    "hebrew": [
+      "גדול"
+    ],
+    "context": "Size description.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 115,
+    "bribri": "Tsi",
+    "english": [
+      "small",
+      "little"
+    ],
+    "spanish": [
+      "pequeño"
+    ],
+    "hebrew": [
+      "קטן"
+    ],
+    "context": "Size description.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 116,
+    "bribri": "Bua'",
+    "english": [
+      "good"
+    ],
+    "spanish": [
+      "bueno"
+    ],
+    "hebrew": [
+      "טוב"
+    ],
+    "context": "Positive quality.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 117,
+    "bribri": "Sulù",
+    "english": [
+      "bad"
+    ],
+    "spanish": [
+      "malo"
+    ],
+    "hebrew": [
+      "רע"
+    ],
+    "context": "Negative quality.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 118,
+    "bribri": "Dä",
+    "english": [
+      "old"
+    ],
+    "spanish": [
+      "viejo"
+    ],
+    "hebrew": [
+      "ישן",
+      "זקן"
+    ],
+    "context": "Age description.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 119,
+    "bribri": "Kë",
+    "english": [
+      "new"
+    ],
+    "spanish": [
+      "nuevo"
+    ],
+    "hebrew": [
+      "חדש"
+    ],
+    "context": "Age description.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 120,
+    "bribri": "Kkö",
+    "english": [
+      "hot"
+    ],
+    "spanish": [
+      "caliente"
+    ],
+    "hebrew": [
+      "חם"
+    ],
+    "context": "Temperature.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 121,
+    "bribri": "Tsì",
+    "english": [
+      "cold"
+    ],
+    "spanish": [
+      "frío"
+    ],
+    "hebrew": [
+      "קר"
+    ],
+    "context": "Temperature.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 122,
+    "bribri": "Tà",
+    "english": [
+      "fast"
+    ],
+    "spanish": [
+      "rápido"
+    ],
+    "hebrew": [
+      "מהיר"
+    ],
+    "context": "Speed description.",
+    "category": "Adjectives"
+  },
+  {
+    "id": 123,
+    "bribri": "Tsök",
+    "english": [
+      "to sing"
+    ],
+    "spanish": [
+      "cantar"
+    ],
+    "hebrew": [
+      "לשיר"
+    ],
+    "context": "Vocalize musically.",
+    "category": "Verbs"
+  },
+  {
+    "id": 124,
+    "bribri": "Ikëk",
+    "english": [
+      "to eat"
+    ],
+    "spanish": [
+      "comer"
+    ],
+    "hebrew": [
+      "לאכול"
+    ],
+    "context": "Consume food.",
+    "category": "Verbs"
+  },
+  {
+    "id": 125,
+    "bribri": "Iñëk",
+    "english": [
+      "to drink"
+    ],
+    "spanish": [
+      "beber",
+      "tomar"
+    ],
+    "hebrew": [
+      "לשתות"
+    ],
+    "context": "Consume liquid.",
+    "category": "Verbs"
+  },
+  {
+    "id": 126,
+    "bribri": "Kök",
+    "english": [
+      "to sleep"
+    ],
+    "spanish": [
+      "dormir"
+    ],
+    "hebrew": [
+      "לישון"
+    ],
+    "context": "Rest.",
+    "category": "Verbs"
+  },
+  {
+    "id": 127,
+    "bribri": "Shkök",
+    "english": [
+      "to walk"
+    ],
+    "spanish": [
+      "caminar"
+    ],
+    "hebrew": [
+      "ללכת"
+    ],
+    "context": "Move on feet.",
+    "category": "Verbs"
+  },
+  {
+    "id": 128,
+    "bribri": "Wöblëk",
+    "english": [
+      "to see"
+    ],
+    "spanish": [
+      "ver"
+    ],
+    "hebrew": [
+      "לראות"
+    ],
+    "context": "Use vision.",
+    "category": "Verbs"
+  },
+  {
+    "id": 129,
+    "bribri": "Tsëk",
+    "english": [
+      "to hear"
+    ],
+    "spanish": [
+      "escuchar"
+    ],
+    "hebrew": [
+      "לשמוע"
+    ],
+    "context": "Use audition.",
+    "category": "Verbs"
+  },
+  {
+    "id": 130,
+    "bribri": "Pàk",
+    "english": [
+      "to speak"
+    ],
+    "spanish": [
+      "hablar"
+    ],
+    "hebrew": [
+      "לדבר"
+    ],
+    "context": "Vocalize words.",
+    "category": "Verbs"
+  },
+  {
+    "id": 131,
+    "bribri": "Chök",
+    "english": [
+      "to say"
+    ],
+    "spanish": [
+      "decir"
+    ],
+    "hebrew": [
+      "להגיד"
+    ],
+    "context": "Express in words.",
+    "category": "Verbs"
+  },
+  {
+    "id": 132,
+    "bribri": "Tëk",
+    "english": [
+      "to run"
+    ],
+    "spanish": [
+      "correr"
+    ],
+    "hebrew": [
+      "לרוץ"
+    ],
+    "context": "Move fast.",
+    "category": "Verbs"
+  },
+  {
+    "id": 133,
+    "bribri": "Mëk",
+    "english": [
+      "to give"
+    ],
+    "spanish": [
+      "dar"
+    ],
+    "hebrew": [
+      "לתת"
+    ],
+    "context": "Transfer possession.",
+    "category": "Verbs"
+  },
+  {
+    "id": 134,
+    "bribri": "Këk",
+    "english": [
+      "to take"
+    ],
+    "spanish": [
+      "tomar",
+      "agarrar"
+    ],
+    "hebrew": [
+      "לקחת"
+    ],
+    "context": "Acquire.",
+    "category": "Verbs"
+  },
+  {
+    "id": 135,
+    "bribri": "Bëk",
+    "english": [
+      "to make",
+      "to do"
+    ],
+    "spanish": [
+      "hacer"
+    ],
+    "hebrew": [
+      "לעשות",
+      "להכין"
+    ],
+    "context": "Create or act.",
+    "category": "Verbs"
+  },
+  {
+    "id": 136,
+    "bribri": "Jëk",
+    "english": [
+      "to go"
+    ],
+    "spanish": [
+      "ir"
+    ],
+    "hebrew": [
+      "ללכת",
+      "לנסוע"
+    ],
+    "context": "Move away.",
+    "category": "Verbs"
+  },
+  {
+    "id": 137,
+    "bribri": "Dëk",
+    "english": [
+      "to come"
+    ],
+    "spanish": [
+      "venir"
+    ],
+    "hebrew": [
+      "לבוא"
+    ],
+    "context": "Move towards.",
+    "category": "Verbs"
+  },
+  {
+    "id": 138,
+    "bribri": "Sëk",
+    "english": [
+      "to live"
+    ],
+    "spanish": [
+      "vivir"
+    ],
+    "hebrew": [
+      "לחיות"
+    ],
+    "context": "Be alive.",
+    "category": "Verbs"
+  },
+  {
+    "id": 139,
+    "bribri": "Tök",
+    "english": [
+      "to die"
+    ],
+    "spanish": [
+      "morir"
+    ],
+    "hebrew": [
+      "למות"
+    ],
+    "context": "Cease to live.",
+    "category": "Verbs"
+  },
+  {
+    "id": 140,
+    "bribri": "Wök",
+    "english": [
+      "to work"
+    ],
+    "spanish": [
+      "trabajar"
+    ],
+    "hebrew": [
+      "לעבוד"
+    ],
+    "context": "Labor.",
+    "category": "Verbs"
+  },
+  {
+    "id": 141,
+    "bribri": "Klük",
+    "english": [
+      "to play"
+    ],
+    "spanish": [
+      "jugar"
+    ],
+    "hebrew": [
+      "לשחק"
+    ],
+    "context": "Amuse oneself.",
+    "category": "Verbs"
+  },
+  {
+    "id": 142,
+    "bribri": "Tsük",
+    "english": [
+      "to sit"
+    ],
+    "spanish": [
+      "sentarse"
+    ],
+    "hebrew": [
+      "לשבת"
+    ],
+    "context": "Rest on buttocks.",
+    "category": "Verbs"
+  },
+  {
+    "id": 143,
+    "bribri": "Tö́k",
+    "english": [
+      "to stand"
+    ],
+    "spanish": [
+      "ponerse de pie"
+    ],
+    "hebrew": [
+      "לעמוד"
+    ],
+    "context": "Rise to feet.",
+    "category": "Verbs"
+  },
+  {
+    "id": 144,
+    "bribri": "Mük",
+    "english": [
+      "to buy"
+    ],
+    "spanish": [
+      "comprar"
+    ],
+    "hebrew": [
+      "לקנות"
+    ],
+    "context": "Exchange money for goods.",
+    "category": "Verbs"
+  },
+  {
+    "id": 145,
+    "bribri": "Wö́k",
+    "english": [
+      "to sell"
+    ],
+    "spanish": [
+      "vender"
+    ],
+    "hebrew": [
+      "למכור"
+    ],
+    "context": "Exchange goods for money.",
+    "category": "Verbs"
+  },
+  {
+    "id": 146,
+    "bribri": "Shëk",
+    "english": [
+      "to wash"
+    ],
+    "spanish": [
+      "lavar"
+    ],
+    "hebrew": [
+      "לשטוף"
+    ],
+    "context": "Clean with water.",
+    "category": "Verbs"
+  },
+  {
+    "id": 147,
+    "bribri": "Kë̀k",
+    "english": [
+      "to cut"
+    ],
+    "spanish": [
+      "cortar"
+    ],
+    "hebrew": [
+      "לחתוך"
+    ],
+    "context": "Divide with a tool.",
+    "category": "Verbs"
+  },
+  {
+    "id": 148,
+    "bribri": "Buku",
+    "english": [
+      "today"
+    ],
+    "spanish": [
+      "hoy"
+    ],
+    "hebrew": [
+      "היום"
+    ],
+    "context": "Current day.",
+    "category": "Time"
+  },
+  {
+    "id": 149,
+    "bribri": "Bötkë",
+    "english": [
+      "tomorrow"
+    ],
+    "spanish": [
+      "mañana"
+    ],
+    "hebrew": [
+      "מחר"
+    ],
+    "context": "Next day.",
+    "category": "Time"
+  },
+  {
+    "id": 150,
+    "bribri": "Mötkë",
+    "english": [
+      "yesterday"
+    ],
+    "spanish": [
+      "ayer"
+    ],
+    "hebrew": [
+      "אתמול"
+    ],
+    "context": "Previous day.",
+    "category": "Time"
+  },
+  {
+    "id": 151,
+    "bribri": "Kë",
+    "english": [
+      "day"
+    ],
+    "spanish": [
+      "día"
+    ],
+    "hebrew": [
+      "יום"
+    ],
+    "context": "Daytime.",
+    "category": "Time"
+  },
+  {
+    "id": 152,
+    "bribri": "Tö",
+    "english": [
+      "night"
+    ],
+    "spanish": [
+      "noche"
+    ],
+    "hebrew": [
+      "לילה"
+    ],
+    "context": "Nighttime.",
+    "category": "Time"
+  },
+  {
+    "id": 153,
+    "bribri": "Kà",
+    "english": [
+      "year"
+    ],
+    "spanish": [
+      "año"
+    ],
+    "hebrew": [
+      "שנה"
+    ],
+    "context": "Calendar year.",
+    "category": "Time"
+  },
+  {
+    "id": 154,
+    "bribri": "Tö'",
+    "english": [
+      "here"
+    ],
+    "spanish": [
+      "aquí"
+    ],
+    "hebrew": [
+      "כאן"
+    ],
+    "context": "This place.",
+    "category": "Space"
+  },
+  {
+    "id": 155,
+    "bribri": "Bö'",
+    "english": [
+      "there"
+    ],
+    "spanish": [
+      "allá"
+    ],
+    "hebrew": [
+      "שם"
+    ],
+    "context": "That place.",
+    "category": "Space"
+  },
+  {
+    "id": 156,
+    "bribri": "Kì",
+    "english": [
+      "up"
+    ],
+    "spanish": [
+      "arriba"
+    ],
+    "hebrew": [
+      "למעלה"
+    ],
+    "context": "Higher elevation.",
+    "category": "Space"
+  },
+  {
+    "id": 157,
+    "bribri": "Tsì",
+    "english": [
+      "down"
+    ],
+    "spanish": [
+      "abajo"
+    ],
+    "hebrew": [
+      "למטה"
+    ],
+    "context": "Lower elevation.",
+    "category": "Space"
+  },
+  {
+    "id": 158,
+    "bribri": "Wö",
+    "english": [
+      "front"
+    ],
+    "spanish": [
+      "frente"
+    ],
+    "hebrew": [
+      "קדימה"
+    ],
+    "context": "Forward direction.",
+    "category": "Space"
+  },
+  {
+    "id": 159,
+    "bribri": "Kë",
+    "english": [
+      "back",
+      "behind"
+    ],
+    "spanish": [
+      "atrás"
+    ],
+    "hebrew": [
+      "אחורה"
+    ],
+    "context": "Rear direction.",
+    "category": "Space"
+  },
+  {
+    "id": 160,
+    "bribri": "Ù",
+    "english": [
+      "house",
+      "home"
+    ],
+    "spanish": [
+      "casa",
+      "hogar"
+    ],
+    "hebrew": [
+      "בית"
+    ],
+    "context": "Dwelling.",
+    "category": "Objects"
+  },
+  {
+    "id": 161,
+    "bribri": "Kàl",
+    "english": [
+      "wood"
+    ],
+    "spanish": [
+      "madera"
+    ],
+    "hebrew": [
+      "עץ (חומר)"
+    ],
+    "context": "Material from trees.",
+    "category": "Objects"
+  },
+  {
+    "id": 162,
+    "bribri": "Kkù",
+    "english": [
+      "basket"
+    ],
+    "spanish": [
+      "canasta"
+    ],
+    "hebrew": [
+      "סל"
+    ],
+    "context": "Woven container.",
+    "category": "Objects"
+  },
+  {
+    "id": 163,
+    "bribri": "Tsä",
+    "english": [
+      "rope",
+      "vine"
+    ],
+    "spanish": [
+      "cuerda",
+      "bejuco"
+    ],
+    "hebrew": [
+      "חבל"
+    ],
+    "context": "Cordage.",
+    "category": "Objects"
+  },
+  {
+    "id": 164,
+    "bribri": "Sö",
+    "english": [
+      "machete",
+      "knife"
+    ],
+    "spanish": [
+      "machete",
+      "cuchillo"
+    ],
+    "hebrew": [
+      "סכין",
+      "מצ'טה"
+    ],
+    "context": "Cutting tool.",
+    "category": "Objects"
+  },
+  {
+    "id": 165,
+    "bribri": "Pö",
+    "english": [
+      "boat",
+      "canoe"
+    ],
+    "spanish": [
+      "bote",
+      "canoa"
+    ],
+    "hebrew": [
+      "סירה"
+    ],
+    "context": "Watercraft.",
+    "category": "Objects"
+  },
+  {
+    "id": 166,
+    "bribri": "Chö",
+    "english": [
+      "bow"
+    ],
+    "spanish": [
+      "arco"
+    ],
+    "hebrew": [
+      "קשת"
+    ],
+    "context": "Weapon.",
+    "category": "Objects"
+  },
+  {
+    "id": 167,
+    "bribri": "Tkë",
+    "english": [
+      "arrow"
+    ],
+    "spanish": [
+      "flecha"
+    ],
+    "hebrew": [
+      "חץ"
+    ],
+    "context": "Projectile.",
+    "category": "Objects"
+  },
+  {
+    "id": 168,
+    "bribri": "Mö",
+    "english": [
+      "clothes"
+    ],
+    "spanish": [
+      "ropa"
+    ],
+    "hebrew": [
+      "בגדים"
+    ],
+    "context": "Garments.",
+    "category": "Objects"
+  },
+  {
+    "id": 169,
+    "bribri": "Wö",
+    "english": [
+      "pot",
+      "clay pot"
+    ],
+    "spanish": [
+      "olla"
+    ],
+    "hebrew": [
+      "סיר"
+    ],
+    "context": "Cooking vessel.",
+    "category": "Objects"
+  },
+  {
+    "id": 170,
+    "bribri": "Të",
+    "english": [
+      "bed"
+    ],
+    "spanish": [
+      "cama"
+    ],
+    "hebrew": [
+      "מיטה"
+    ],
+    "context": "Furniture for sleeping.",
+    "category": "Objects"
+  },
+  {
+    "id": 171,
+    "bribri": "Kë",
+    "english": [
+      "firewood"
+    ],
+    "spanish": [
+      "leña"
+    ],
+    "hebrew": [
+      "עצי הסקה"
+    ],
+    "context": "Wood for burning.",
+    "category": "Objects"
+  },
+  {
+    "id": 172,
+    "bribri": "Ekól",
+    "english": [
+      "one"
+    ],
+    "spanish": [
+      "uno"
+    ],
+    "hebrew": [
+      "אחד"
+    ],
+    "context": "Number 1.",
+    "category": "Numbers"
+  },
+  {
+    "id": 173,
+    "bribri": "Bötöl",
+    "english": [
+      "two"
+    ],
+    "spanish": [
+      "dos"
+    ],
+    "hebrew": [
+      "שניים"
+    ],
+    "context": "Number 2.",
+    "category": "Numbers"
+  },
+  {
+    "id": 174,
+    "bribri": "Mąñát",
+    "english": [
+      "three"
+    ],
+    "spanish": [
+      "tres"
+    ],
+    "hebrew": [
+      "שלושה"
+    ],
+    "context": "Number 3.",
+    "category": "Numbers"
+  },
+  {
+    "id": 175,
+    "bribri": "Tkël",
+    "english": [
+      "four"
+    ],
+    "spanish": [
+      "cuatro"
+    ],
+    "hebrew": [
+      "ארבעה"
+    ],
+    "context": "Number 4.",
+    "category": "Numbers"
+  },
+  {
+    "id": 176,
+    "bribri": "Skél",
+    "english": [
+      "five"
+    ],
+    "spanish": [
+      "cinco"
+    ],
+    "hebrew": [
+      "חמישה"
+    ],
+    "context": "Number 5.",
+    "category": "Numbers"
+  },
+  {
+    "id": 177,
+    "bribri": "Terkël",
+    "english": [
+      "six"
+    ],
+    "spanish": [
+      "seis"
+    ],
+    "hebrew": [
+      "שישה"
+    ],
+    "context": "Number 6.",
+    "category": "Numbers"
+  },
+  {
+    "id": 178,
+    "bribri": "Kuglól",
+    "english": [
+      "seven"
+    ],
+    "spanish": [
+      "siete"
+    ],
+    "hebrew": [
+      "שבעה"
+    ],
+    "context": "Number 7.",
+    "category": "Numbers"
+  },
+  {
+    "id": 179,
+    "bribri": "Pàköl",
+    "english": [
+      "eight"
+    ],
+    "spanish": [
+      "ocho"
+    ],
+    "hebrew": [
+      "שמונה"
+    ],
+    "context": "Number 8.",
+    "category": "Numbers"
+  },
+  {
+    "id": 180,
+    "bribri": "Sulìt",
+    "english": [
+      "nine"
+    ],
+    "spanish": [
+      "nueve"
+    ],
+    "hebrew": [
+      "תשעה"
+    ],
+    "context": "Number 9.",
+    "category": "Numbers"
+  },
+  {
+    "id": 181,
+    "bribri": "Dabóm",
+    "english": [
+      "ten"
+    ],
+    "spanish": [
+      "diez"
+    ],
+    "hebrew": [
+      "עשרה"
+    ],
+    "context": "Number 10.",
+    "category": "Numbers"
+  },
+  {
+    "id": 182,
+    "bribri": "Di' mą́",
+    "english": [
+      "rainwater"
+    ],
+    "spanish": [
+      "agua de lluvia"
+    ],
+    "hebrew": [
+      "מי גשם"
+    ],
+    "context": "Water from the sky.",
+    "category": "Nature"
+  },
+  {
+    "id": 183,
+    "bribri": "Di' wö",
+    "english": [
+      "river mouth"
+    ],
+    "spanish": [
+      "desembocadura"
+    ],
+    "hebrew": [
+      "שפך נהר"
+    ],
+    "context": "End of a river.",
+    "category": "Nature"
+  },
+  {
+    "id": 184,
+    "bribri": "Ù bötäl",
+    "english": [
+      "white house"
+    ],
+    "spanish": [
+      "casa blanca"
+    ],
+    "hebrew": [
+      "בית לבן"
+    ],
+    "context": "A white dwelling.",
+    "category": "Objects"
+  },
+  {
+    "id": 185,
+    "bribri": "Namú mä",
+    "english": [
+      "big jaguar"
+    ],
+    "spanish": [
+      "jaguar grande"
+    ],
+    "hebrew": [
+      "יגואר גדול"
+    ],
+    "context": "A large feline.",
+    "category": "Animals"
+  },
+  {
+    "id": 186,
+    "bribri": "Awá dëk",
+    "english": [
+      "the shaman comes"
+    ],
+    "spanish": [
+      "el chamán viene"
+    ],
+    "hebrew": [
+      "השאמאן בא"
+    ],
+    "context": "Sentence example.",
+    "category": "Phrases"
+  },
+  {
+    "id": 187,
+    "bribri": "Skà bua'",
+    "english": [
+      "good corn"
+    ],
+    "spanish": [
+      "buen maíz"
+    ],
+    "hebrew": [
+      "תירס טוב"
+    ],
+    "context": "High quality crop.",
+    "category": "Food"
+  },
+  {
+    "id": 188,
+    "bribri": "Kàl kkö",
+    "english": [
+      "tree branch"
+    ],
+    "spanish": [
+      "rama de árbol"
+    ],
+    "hebrew": [
+      "ענף של עץ"
+    ],
+    "context": "Part of a tree.",
+    "category": "Nature"
+  },
+  {
+    "id": 189,
+    "bribri": "Duö tsök",
+    "english": [
+      "the bird sings"
+    ],
+    "spanish": [
+      "el pájaro canta"
+    ],
+    "hebrew": [
+      "הציפור שרה"
+    ],
+    "context": "Action of a bird.",
+    "category": "Phrases"
+  },
+  {
+    "id": 190,
+    "bribri": "Yë́ bua'",
+    "english": [
+      "good father"
+    ],
+    "spanish": [
+      "buen padre"
+    ],
+    "hebrew": [
+      "אבא טוב"
+    ],
+    "context": "Describing a parent.",
+    "category": "Family"
+  },
+  {
+    "id": 191,
+    "bribri": "Mích tsö",
+    "english": [
+      "black cat"
+    ],
+    "spanish": [
+      "gato negro"
+    ],
+    "hebrew": [
+      "חתול שחור"
+    ],
+    "context": "A dark colored feline.",
+    "category": "Animals"
+  },
+  {
+    "id": 192,
+    "bribri": "Tsí bötäl",
+    "english": [
+      "white dog"
+    ],
+    "spanish": [
+      "perro blanco"
+    ],
+    "hebrew": [
+      "כלב לבן"
+    ],
+    "context": "A white dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 193,
+    "bribri": "Tsí tsö",
+    "english": [
+      "black dog"
+    ],
+    "spanish": [
+      "perro negro"
+    ],
+    "hebrew": [
+      "כלב שחור"
+    ],
+    "context": "A black dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 194,
+    "bribri": "Tsí më",
+    "english": [
+      "red dog"
+    ],
+    "spanish": [
+      "perro rojo"
+    ],
+    "hebrew": [
+      "כלב אדום"
+    ],
+    "context": "A red dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 195,
+    "bribri": "Tsí tö",
+    "english": [
+      "green dog"
+    ],
+    "spanish": [
+      "perro verde"
+    ],
+    "hebrew": [
+      "כלב ירוק"
+    ],
+    "context": "A green dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 196,
+    "bribri": "Tsí së",
+    "english": [
+      "yellow dog"
+    ],
+    "spanish": [
+      "perro amarillo"
+    ],
+    "hebrew": [
+      "כלב צהוב"
+    ],
+    "context": "A yellow dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 197,
+    "bribri": "Tsí bö",
+    "english": [
+      "blue dog"
+    ],
+    "spanish": [
+      "perro azul"
+    ],
+    "hebrew": [
+      "כלב כחול"
+    ],
+    "context": "A blue dog.",
+    "category": "Animals"
+  },
+  {
+    "id": 198,
+    "bribri": "Mích bötäl",
+    "english": [
+      "white cat"
+    ],
+    "spanish": [
+      "gato blanco"
+    ],
+    "hebrew": [
+      "חתול לבן"
+    ],
+    "context": "A white cat.",
+    "category": "Animals"
+  },
+  {
+    "id": 199,
+    "bribri": "Mích tsö",
+    "english": [
+      "black cat"
+    ],
+    "spanish": [
+      "gato negro"
+    ],
+    "hebrew": [
+      "חתול שחור"
+    ],
+    "context": "A black cat.",
+    "category": "Animals"
+  },
+  {
+    "id": 200,
+    "bribri": "Mích më",
+    "english": [
+      "red cat"
+    ],
+    "spanish": [
+      "gato rojo"
+    ],
+    "hebrew": [
+      "חתול אדום"
+    ],
+    "context": "A red cat.",
+    "category": "Animals"
+  },
+  {
+    "id": 201,
+    "bribri": "Mích tö",
+    "english": [
+      "green cat"
+    ],
+    "spanish": [
+      "gato verde"
+    ],
+    "hebrew": [
+      "חתול ירוק"
+    ],
+    "context": "A green cat.",
+    "category": "Animals"
+  },
+  {
+    "id": 202,
+    "bribri": "Mích së",
+    "english": [
+      "yellow cat"
+    ],
+    "spanish": [
+      "gato amarillo"
+    ],
+    "hebrew": [
+      "חתול צהוב"
+    ],
+    "context": "A yellow cat.",
+    "category": "Animals"
+  },
+  {
+    "id": 203,
+    "bribri": "Mích bö",
+    "english": [
+      "blue cat"
+    ],
+    "spanish": [
+      "gato azul"
+    ],
+    "hebrew": [
+      "חתול כחול"
+    ],
+    "context": "A blue cat.",
+    "category": "Animals"
+  },
+  {
+    "id": 204,
+    "bribri": "Dakarò bötäl",
+    "english": [
+      "white chicken"
+    ],
+    "spanish": [
+      "gallina blanco"
+    ],
+    "hebrew": [
+      "תרנגולת לבן"
+    ],
+    "context": "A white chicken.",
+    "category": "Animals"
+  },
+  {
+    "id": 205,
+    "bribri": "Dakarò tsö",
+    "english": [
+      "black chicken"
+    ],
+    "spanish": [
+      "gallina negro"
+    ],
+    "hebrew": [
+      "תרנגולת שחור"
+    ],
+    "context": "A black chicken.",
+    "category": "Animals"
+  },
+  {
+    "id": 206,
+    "bribri": "Dakarò më",
+    "english": [
+      "red chicken"
+    ],
+    "spanish": [
+      "gallina rojo"
+    ],
+    "hebrew": [
+      "תרנגולת אדום"
+    ],
+    "context": "A red chicken.",
+    "category": "Animals"
+  },
+  {
+    "id": 207,
+    "bribri": "Dakarò tö",
+    "english": [
+      "green chicken"
+    ],
+    "spanish": [
+      "gallina verde"
+    ],
+    "hebrew": [
+      "תרנגולת ירוק"
+    ],
+    "context": "A green chicken.",
+    "category": "Animals"
+  },
+  {
+    "id": 208,
+    "bribri": "Dakarò së",
+    "english": [
+      "yellow chicken"
+    ],
+    "spanish": [
+      "gallina amarillo"
+    ],
+    "hebrew": [
+      "תרנגולת צהוב"
+    ],
+    "context": "A yellow chicken.",
+    "category": "Animals"
+  },
+  {
+    "id": 209,
+    "bribri": "Dakarò bö",
+    "english": [
+      "blue chicken"
+    ],
+    "spanish": [
+      "gallina azul"
+    ],
+    "hebrew": [
+      "תרנגולת כחול"
+    ],
+    "context": "A blue chicken.",
+    "category": "Animals"
+  },
+  {
+    "id": 210,
+    "bribri": "Bö bötäl",
+    "english": [
+      "white snake"
+    ],
+    "spanish": [
+      "serpiente blanco"
+    ],
+    "hebrew": [
+      "נחש לבן"
+    ],
+    "context": "A white snake.",
+    "category": "Animals"
+  },
+  {
+    "id": 211,
+    "bribri": "Bö tsö",
+    "english": [
+      "black snake"
+    ],
+    "spanish": [
+      "serpiente negro"
+    ],
+    "hebrew": [
+      "נחש שחור"
+    ],
+    "context": "A black snake.",
+    "category": "Animals"
+  },
+  {
+    "id": 212,
+    "bribri": "Bö më",
+    "english": [
+      "red snake"
+    ],
+    "spanish": [
+      "serpiente rojo"
+    ],
+    "hebrew": [
+      "נחש אדום"
+    ],
+    "context": "A red snake.",
+    "category": "Animals"
+  },
+  {
+    "id": 213,
+    "bribri": "Bö tö",
+    "english": [
+      "green snake"
+    ],
+    "spanish": [
+      "serpiente verde"
+    ],
+    "hebrew": [
+      "נחש ירוק"
+    ],
+    "context": "A green snake.",
+    "category": "Animals"
+  },
+  {
+    "id": 214,
+    "bribri": "Bö së",
+    "english": [
+      "yellow snake"
+    ],
+    "spanish": [
+      "serpiente amarillo"
+    ],
+    "hebrew": [
+      "נחש צהוב"
+    ],
+    "context": "A yellow snake.",
+    "category": "Animals"
+  },
+  {
+    "id": 215,
+    "bribri": "Bö bö",
+    "english": [
+      "blue snake"
+    ],
+    "spanish": [
+      "serpiente azul"
+    ],
+    "hebrew": [
+      "נחש כחול"
+    ],
+    "context": "A blue snake.",
+    "category": "Animals"
+  },
+  {
+    "id": 216,
+    "bribri": "Ùrö bötäl",
+    "english": [
+      "white monkey"
+    ],
+    "spanish": [
+      "mono blanco"
+    ],
+    "hebrew": [
+      "קוף לבן"
+    ],
+    "context": "A white monkey.",
+    "category": "Animals"
+  },
+  {
+    "id": 217,
+    "bribri": "Ùrö tsö",
+    "english": [
+      "black monkey"
+    ],
+    "spanish": [
+      "mono negro"
+    ],
+    "hebrew": [
+      "קוף שחור"
+    ],
+    "context": "A black monkey.",
+    "category": "Animals"
+  },
+  {
+    "id": 218,
+    "bribri": "Ùrö më",
+    "english": [
+      "red monkey"
+    ],
+    "spanish": [
+      "mono rojo"
+    ],
+    "hebrew": [
+      "קוף אדום"
+    ],
+    "context": "A red monkey.",
+    "category": "Animals"
+  },
+  {
+    "id": 219,
+    "bribri": "Ùrö tö",
+    "english": [
+      "green monkey"
+    ],
+    "spanish": [
+      "mono verde"
+    ],
+    "hebrew": [
+      "קוף ירוק"
+    ],
+    "context": "A green monkey.",
+    "category": "Animals"
+  },
+  {
+    "id": 220,
+    "bribri": "Ùrö së",
+    "english": [
+      "yellow monkey"
+    ],
+    "spanish": [
+      "mono amarillo"
+    ],
+    "hebrew": [
+      "קוף צהוב"
+    ],
+    "context": "A yellow monkey.",
+    "category": "Animals"
+  },
+  {
+    "id": 221,
+    "bribri": "Ùrö bö",
+    "english": [
+      "blue monkey"
+    ],
+    "spanish": [
+      "mono azul"
+    ],
+    "hebrew": [
+      "קוף כחול"
+    ],
+    "context": "A blue monkey.",
+    "category": "Animals"
+  },
+  {
+    "id": 222,
+    "bribri": "Ù bötäl",
+    "english": [
+      "white house"
+    ],
+    "spanish": [
+      "casa blanco"
+    ],
+    "hebrew": [
+      "בית לבן"
+    ],
+    "context": "A white house.",
+    "category": "Objects"
+  },
+  {
+    "id": 223,
+    "bribri": "Ù tsö",
+    "english": [
+      "black house"
+    ],
+    "spanish": [
+      "casa negro"
+    ],
+    "hebrew": [
+      "בית שחור"
+    ],
+    "context": "A black house.",
+    "category": "Objects"
+  },
+  {
+    "id": 224,
+    "bribri": "Ù më",
+    "english": [
+      "red house"
+    ],
+    "spanish": [
+      "casa rojo"
+    ],
+    "hebrew": [
+      "בית אדום"
+    ],
+    "context": "A red house.",
+    "category": "Objects"
+  },
+  {
+    "id": 225,
+    "bribri": "Ù tö",
+    "english": [
+      "green house"
+    ],
+    "spanish": [
+      "casa verde"
+    ],
+    "hebrew": [
+      "בית ירוק"
+    ],
+    "context": "A green house.",
+    "category": "Objects"
+  },
+  {
+    "id": 226,
+    "bribri": "Ù së",
+    "english": [
+      "yellow house"
+    ],
+    "spanish": [
+      "casa amarillo"
+    ],
+    "hebrew": [
+      "בית צהוב"
+    ],
+    "context": "A yellow house.",
+    "category": "Objects"
+  },
+  {
+    "id": 227,
+    "bribri": "Ù bö",
+    "english": [
+      "blue house"
+    ],
+    "spanish": [
+      "casa azul"
+    ],
+    "hebrew": [
+      "בית כחול"
+    ],
+    "context": "A blue house.",
+    "category": "Objects"
+  },
+  {
+    "id": 228,
+    "bribri": "Mö bötäl",
+    "english": [
+      "white clothes"
+    ],
+    "spanish": [
+      "ropa blanco"
+    ],
+    "hebrew": [
+      "בגדים לבן"
+    ],
+    "context": "A white clothes.",
+    "category": "Objects"
+  },
+  {
+    "id": 229,
+    "bribri": "Mö tsö",
+    "english": [
+      "black clothes"
+    ],
+    "spanish": [
+      "ropa negro"
+    ],
+    "hebrew": [
+      "בגדים שחור"
+    ],
+    "context": "A black clothes.",
+    "category": "Objects"
+  },
+  {
+    "id": 230,
+    "bribri": "Mö më",
+    "english": [
+      "red clothes"
+    ],
+    "spanish": [
+      "ropa rojo"
+    ],
+    "hebrew": [
+      "בגדים אדום"
+    ],
+    "context": "A red clothes.",
+    "category": "Objects"
+  },
+  {
+    "id": 231,
+    "bribri": "Mö tö",
+    "english": [
+      "green clothes"
+    ],
+    "spanish": [
+      "ropa verde"
+    ],
+    "hebrew": [
+      "בגדים ירוק"
+    ],
+    "context": "A green clothes.",
+    "category": "Objects"
+  },
+  {
+    "id": 232,
+    "bribri": "Mö së",
+    "english": [
+      "yellow clothes"
+    ],
+    "spanish": [
+      "ropa amarillo"
+    ],
+    "hebrew": [
+      "בגדים צהוב"
+    ],
+    "context": "A yellow clothes.",
+    "category": "Objects"
+  },
+  {
+    "id": 233,
+    "bribri": "Mö bö",
+    "english": [
+      "blue clothes"
+    ],
+    "spanish": [
+      "ropa azul"
+    ],
+    "hebrew": [
+      "בגדים כחול"
+    ],
+    "context": "A blue clothes.",
+    "category": "Objects"
   }
 ]
