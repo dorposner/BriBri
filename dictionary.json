@@ -5,7 +5,8 @@
     "english": ["hello", "hi", "greetings"],
     "spanish": ["hola", "saludos"],
     "hebrew": ["שלום", "היי"],
-    "context": "General greeting used at any time of the day."
+    "context": "General greeting used at any time of the day.",
+    "category": "Greetings"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "english": ["thank you for coming", "welcome"],
     "spanish": ["gracias por venir", "bienvenido"],
     "hebrew": ["תודה שבאתם", "ברוכים הבאים"],
-    "context": "Used to show gratitude when someone arrives."
+    "context": "Used to show gratitude when someone arrives.",
+    "category": "Greetings"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "english": ["how are you?", "how are you doing?"],
     "spanish": ["¿cómo estás?", "¿cómo te va?"],
     "hebrew": ["מה שלומך?", "איך אתה?"],
-    "context": "Common way to ask someone how they are."
+    "context": "Common way to ask someone how they are.",
+    "category": "Greetings"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "english": ["good", "well", "fine"],
     "spanish": ["bien", "bueno"],
     "hebrew": ["טוב", "בסדר"],
-    "context": "Response to 'how are you?' meaning fine or good."
+    "context": "Response to 'how are you?' meaning fine or good.",
+    "category": "Greetings"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "english": ["shaman", "doctor", "healer"],
     "spanish": ["chamán", "médico", "curandero"],
     "hebrew": ["שאמאן", "רופא", "מרפא"],
-    "context": "A traditional healer and spiritual leader in the Bribri community."
+    "context": "A traditional healer and spiritual leader in the Bribri community.",
+    "category": "People"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "english": ["water", "river"],
     "spanish": ["agua", "río"],
     "hebrew": ["מים", "נהר"],
-    "context": "Refers to water in general or a river."
+    "context": "Refers to water in general or a river.",
+    "category": "Nature"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "english": ["cacao", "chocolate"],
     "spanish": ["cacao", "chocolate"],
     "hebrew": ["קקאו", "שוקולד"],
-    "context": "A sacred plant for the Bribri, used in ceremonies and daily life."
+    "context": "A sacred plant for the Bribri, used in ceremonies and daily life.",
+    "category": "Food"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "english": ["house", "home"],
     "spanish": ["casa", "hogar"],
     "hebrew": ["בית"],
-    "context": "Refers to a dwelling."
+    "context": "Refers to a dwelling.",
+    "category": "Home"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "english": ["chicken", "hen"],
     "spanish": ["gallina", "pollo"],
     "hebrew": ["תרנגולת", "עוף"],
-    "context": "Domestic fowl."
+    "context": "Domestic fowl.",
+    "category": "Animals"
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "english": ["jaguar", "feline"],
     "spanish": ["jaguar", "felino"],
     "hebrew": ["יגואר", "חתול"],
-    "context": "The jaguar, an important animal in Bribri cosmology."
+    "context": "The jaguar, an important animal in Bribri cosmology.",
+    "category": "Animals"
   }
 ]

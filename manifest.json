@@ -1,0 +1,16 @@
+{
+  "name": "Bribri Translator App",
+  "short_name": "BribriApp",
+  "description": "A static web-based translator and dictionary for the Bribri language.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#F4F1EA",
+  "theme_color": "#2D5A27",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}
