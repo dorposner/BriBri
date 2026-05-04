@@ -156,6 +156,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Filter and show
                 const filtered = dictionary.filter(e => e.category === cat);
                 renderCards(filtered, categoryResults);
+                
+                // Scroll down to the results
+                categoryResults.scrollIntoView({ behavior: 'smooth' });
             });
             categoryGrid.appendChild(btn);
         });
