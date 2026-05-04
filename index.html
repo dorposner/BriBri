@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bribri Translator App</title>
+    <meta name="description" content="A static web-based translator and dictionary for the Bribri language.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Bribri Translator</h1>
+            <p>Discover the language of the Bribri people</p>
+        </header>
+
+        <main>
+            <div class="search-section">
+                <div class="input-group">
+                    <input type="text" id="search-input" placeholder="Search in English, Spanish, Hebrew or Bribri..." autocomplete="off">
+                    <button id="translate-btn">Translate</button>
+                </div>
+                <div class="language-info">
+                    Search works across English, Español, עברית, and Bribri.
+                </div>
+            </div>
+
+            <div id="results-container" class="results-container">
+                <!-- Results will be injected here -->
+                <div class="placeholder">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                    <p>Enter a word to start translating</p>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Created for the preservation and study of the Bribri language.</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
