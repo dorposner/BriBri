@@ -245,6 +245,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="lang-words hebrew-text">${entry.hebrew.join(', ')}</div>
                     </div>
                 </div>
+                ${entry.source ? `<a href="${entry.source}" target="_blank" class="source-link">Source: Haakon Krohn Dictionary</a>` : ''}
             `;
             container.appendChild(card);
         });

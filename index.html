@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Bribri Translator App</title>
     <meta name="description" content="A static web-based translator and dictionary for the Bribri language.">
     <link rel="manifest" href="./manifest.json">
@@ -23,14 +23,7 @@
             <p>Discover the language of the Bribri people</p>
         </header>
 
-        <nav class="tabs">
-            <button class="tab-btn active" data-target="view-search">Search</button>
-            <button class="tab-btn" data-target="view-categories">Categories</button>
-            <button class="tab-btn" data-target="view-index">A-Z Index</button>
-            <button class="tab-btn" data-target="view-guide">Pronunciation</button>
-        </nav>
-
-        <main>
+        <!-- Navigation moved to bottom -->        <main>
             <!-- View: Search -->
             <div id="view-search" class="view active">
                 <div class="search-section">
@@ -120,6 +113,14 @@
             <p>Created for the preservation and study of the Bribri language by Dor Posner.</p>
             <p style="margin-top: 0.5rem;"><a href="https://buymeacoffee.com/dorposner" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">☕ Buy me a coffee</a></p>
         </footer>
+
+        <!-- Bottom Navigation Bar -->
+        <nav class="tabs bottom-nav">
+            <button class="tab-btn active" data-target="view-search">Search</button>
+            <button class="tab-btn" data-target="view-categories">Categories</button>
+            <button class="tab-btn" data-target="view-index">A-Z Index</button>
+            <button class="tab-btn" data-target="view-guide">Guide</button>
+        </nav>
     </div>
 
     <script src="app.js"></script>
