@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
 </head>
+
 <body>
     <div class="app-container">
         <header>
@@ -33,19 +35,25 @@
             <div id="view-search" class="view active">
                 <div class="search-section">
                     <div class="input-group">
-                        <input type="text" id="search-input" placeholder="Search in English, Spanish, Hebrew or Bribri..." autocomplete="off">
+                        <input type="text" id="search-input"
+                            placeholder="Search in English, Spanish, Hebrew or Bribri..." autocomplete="off">
                         <button id="translate-btn">Translate</button>
                         <!-- Auto-suggestions dropdown container -->
                         <div id="suggestions-container" class="suggestions-container hidden"></div>
                     </div>
-                    
+
                     <div class="language-info">
                         Fuzzy Search works across English, Español, עברית, and Bribri.
                     </div>
                 </div>
                 <div id="results-container" class="results-container">
                     <div class="placeholder">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-search">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
                         <p>Enter a word to start translating</p>
                     </div>
                 </div>
@@ -83,18 +91,21 @@
             <div id="view-guide" class="view hidden">
                 <h2 class="view-title">Pronunciation Guide</h2>
                 <div class="guide-content">
-                    <p>The Bribri language uses a Latin alphabet with special diacritics to indicate tones and unique sounds.</p>
-                    
+                    <p>The Bribri language uses a Latin alphabet with special diacritics to indicate tones and unique
+                        sounds.</p>
+
                     <h3>Vowels and Tones</h3>
                     <ul>
                         <li><strong>High Tone (´):</strong> E.g., <code>í</code>. Pronounced with a higher pitch.</li>
-                        <li><strong>Low/Falling Tone (`):</strong> E.g., <code>à</code>. Pronounced with a lower or falling pitch.</li>
+                        <li><strong>Low/Falling Tone (`):</strong> E.g., <code>à</code>. Pronounced with a lower or
+                            falling pitch.</li>
                         <li><strong>Nasal Vowels (~):</strong> E.g., <code>ã</code>. Pronounced through the nose.</li>
                     </ul>
 
                     <h3>Consonants</h3>
                     <ul>
-                        <li><strong>Glottal Stop ('):</strong> E.g., <code>Bua'</code>. A brief pause or catch in the throat, similar to the middle of "uh-oh".</li>
+                        <li><strong>Glottal Stop ('):</strong> E.g., <code>Bua'</code>. A brief pause or catch in the
+                            throat, similar to the middle of "uh-oh".</li>
                         <li><strong>Sh / Ts:</strong> Common blends that are pronounced sharply.</li>
                     </ul>
 
@@ -104,12 +115,14 @@
                 </div>
             </div>
         </main>
-        
+
         <footer>
-            <p>Created for the preservation and study of the Bribri language.</p>
+            <p>Created for the preservation and study of the Bribri language by Dor Posner.</p>
+            <p style="margin-top: 0.5rem;"><a href="https://buymeacoffee.com/dorposner" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">☕ Buy me a coffee</a></p>
         </footer>
     </div>
 
     <script src="app.js"></script>
 </body>
+
 </html>
