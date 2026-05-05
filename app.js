@@ -284,8 +284,30 @@ document.addEventListener('DOMContentLoaded', () => {
             const bribriWord = document.getElementById('suggest-bribri').value.trim();
             const translation = document.getElementById('suggest-translation').value.trim();
             const context = document.getElementById('suggest-context').value.trim();
+            const contributorName = document.getElementById('suggest-name').value.trim();
 
             if (!bribriWord || !translation) return;
+
+            // Check for similar words
+            if (fuse) {
+                const similar = fuse.search(bribriWord);
+                // Filter for very close matches (score < 0.3 means it's a strong match)
+                const verySimilar = similar.filter(res => res.score < 0.3).slice(0, 3);
+                
+                if (verySimilar.length > 0) {
+                    let msg = "Wait! We found similar words already in the dictionary:\n\n";
+                    verySimilar.forEach(res => {
+                        const word = res.item;
+                        const transPreview = word.english[0] || word.spanish[0] || word.hebrew[0] || '';
+                        msg += `- ${word.bribri} (${transPreview})\n`;
+                    });
+                    msg += "\nAre you sure you want to suggest this as a NEW word?";
+                    
+                    if (!confirm(msg)) {
+                        return; // User cancelled
+                    }
+                }
+            }
 
             // Show loading state
             const originalBtnText = suggestSubmitBtn.textContent;
@@ -298,6 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     bribri: bribriWord,
                     translation: translation,
                     context: context,
+                    contributor_name: contributorName,
                     timestamp: serverTimestamp()
                 });
 

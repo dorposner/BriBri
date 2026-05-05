@@ -100,6 +100,14 @@ function renderSuggestions() {
             contextEl.style.opacity = "0.5";
         }
 
+        const contributorEl = clone.querySelector('.contributor-text');
+        if (suggestion.contributor_name) {
+            contributorEl.textContent = suggestion.contributor_name;
+        } else {
+            contributorEl.textContent = "Anonymous";
+            contributorEl.style.opacity = "0.5";
+        }
+
         if (suggestion.timestamp) {
             const date = suggestion.timestamp.toDate();
             clone.querySelector('.timestamp').textContent = date.toLocaleDateString() + ' ' + date.toLocaleTimeString();
@@ -163,7 +171,7 @@ async function handleApprove(id, suggestionData, cardElement) {
             hebrew: isHebrew ? [suggestionData.translation] : [],
             context: suggestionData.context || "",
             category: "Community Suggestion",
-            source: "User Submission"
+            source: suggestionData.contributor_name ? `Suggested by ${suggestionData.contributor_name}` : "Community Suggestion"
         };
 
         dictionary.push(newEntry);
