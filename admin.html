@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bribri Admin Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+    <link rel="icon" href="./icon.png" type="image/png">
+</head>
+<body>
+    <div class="admin-container">
+        <header class="admin-header">
+            <div class="header-content">
+                <h1>Bribri Dictionary Admin</h1>
+                <p>Review and approve word suggestions</p>
+            </div>
+            <div class="settings-btn" id="settings-toggle">
+                ⚙️ Settings
+            </div>
+        </header>
+
+        <!-- Settings Modal -->
+        <div id="settings-modal" class="modal hidden">
+            <div class="modal-content">
+                <h2>Admin Settings</h2>
+                <p>To approve words and automatically save them to the repository, provide your GitHub Personal Access Token.</p>
+                <div class="form-group">
+                    <label for="github-token">GitHub Token (ghp_...)</label>
+                    <input type="password" id="github-token" placeholder="Paste token here">
+                </div>
+                <button id="save-settings-btn" class="btn primary">Save & Close</button>
+            </div>
+        </div>
+
+        <main class="admin-main">
+            <div class="dashboard-controls">
+                <h2>Pending Suggestions</h2>
+                <div class="stats">
+                    <span id="pending-count">0</span> words awaiting review
+                </div>
+            </div>
+
+            <div id="suggestions-list" class="suggestions-list">
+                <div class="loading">Loading suggestions from Firebase...</div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Template for a suggestion card -->
+    <template id="suggestion-template">
+        <div class="suggestion-card">
+            <div class="suggestion-header">
+                <div class="bribri-word"></div>
+                <div class="timestamp"></div>
+            </div>
+            <div class="suggestion-body">
+                <div class="detail-row">
+                    <span class="label">Translation:</span>
+                    <span class="translation-text"></span>
+                </div>
+                <div class="detail-row context-row">
+                    <span class="label">Context:</span>
+                    <span class="context-text"></span>
+                </div>
+            </div>
+            <div class="suggestion-actions">
+                <button class="btn approve-btn">Approve & Publish</button>
+                <button class="btn delete-btn">Delete</button>
+            </div>
+        </div>
+    </template>
+
+    <script type="module" src="admin.js"></script>
+</body>
+</html>

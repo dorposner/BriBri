@@ -165,6 +165,18 @@ button:active { transform: translateY(1px); }
 .guide-content li { margin-bottom: 0.5rem; }
 .tip-box { background-color: rgba(45, 90, 39, 0.1); border-left: 4px solid var(--primary-color); padding: 1rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; margin-top: 2rem; }
 
+/* Suggest Form */
+.suggest-content { max-width: 600px; margin: 0 auto; }
+.suggest-content p { margin-bottom: 1.5rem; color: var(--text-secondary); }
+.suggest-form { display: flex; flex-direction: column; gap: 1.25rem; }
+.form-group { display: flex; flex-direction: column; gap: 0.5rem; }
+.form-group label { font-weight: 600; font-size: 0.95rem; color: var(--primary-color); }
+.form-group input, .form-group textarea { padding: 1rem; font-size: 1rem; border: 2px solid var(--border-color); border-radius: var(--radius-md); background-color: var(--background-color); color: var(--text-primary); transition: var(--transition); font-family: inherit; }
+.form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--primary-color); background-color: var(--surface-color); box-shadow: 0 0 0 3px rgba(45, 90, 39, 0.1); }
+.form-group textarea { resize: vertical; min-height: 100px; }
+.success-message { padding: 1rem; background-color: rgba(45, 90, 39, 0.1); border-left: 4px solid var(--primary-color); color: var(--primary-color); font-weight: 600; border-radius: 0 var(--radius-md) var(--radius-md) 0; text-align: center; margin-top: 1rem; }
+.success-message.hidden { display: none; }
+
 footer { text-align: center; padding: 1.5rem; background-color: var(--background-color); color: var(--text-secondary); font-size: 0.9rem; border-top: 1px solid var(--border-color); }
 
 @media (max-width: 600px) {

@@ -1,3 +1,21 @@
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAre8_kYuoXkTV0S-ApaInL5Ihuj429UGA",
+  authDomain: "bribri-123.firebaseapp.com",
+  projectId: "bribri-123",
+  storageBucket: "bribri-123.firebasestorage.app",
+  messagingSenderId: "980555615472",
+  appId: "1:980555615472:web:88a49e0ac53c5776a50635",
+  measurementId: "G-4B8Q0G8CST"
+};
+
+// Initialize Firebase
+const firebaseApp = initializeApp(firebaseConfig);
+const db = getFirestore(firebaseApp);
+
 document.addEventListener('DOMContentLoaded', () => {
     // 1. PWA Service Worker Registration
     if ('serviceWorker' in navigator) {
@@ -251,6 +269,54 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${entry.source ? `<a href="${entry.source}" target="_blank" class="source-link">Source: Haakon Krohn Dictionary</a>` : ''}
             `;
             container.appendChild(card);
+        });
+    }
+
+    // --- SUGGEST FORM LOGIC ---
+    const suggestForm = document.getElementById('suggest-form');
+    const suggestSubmitBtn = document.getElementById('suggest-submit-btn');
+    const suggestSuccess = document.getElementById('suggest-success');
+
+    if (suggestForm) {
+        suggestForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const bribriWord = document.getElementById('suggest-bribri').value.trim();
+            const translation = document.getElementById('suggest-translation').value.trim();
+            const context = document.getElementById('suggest-context').value.trim();
+
+            if (!bribriWord || !translation) return;
+
+            // Show loading state
+            const originalBtnText = suggestSubmitBtn.textContent;
+            suggestSubmitBtn.textContent = 'Submitting...';
+            suggestSubmitBtn.disabled = true;
+
+            try {
+                // Add to Firebase
+                await addDoc(collection(db, "suggestions"), {
+                    bribri: bribriWord,
+                    translation: translation,
+                    context: context,
+                    timestamp: serverTimestamp()
+                });
+
+                // Show success
+                suggestForm.reset();
+                suggestSuccess.classList.remove('hidden');
+                
+                // Hide success message after 5 seconds
+                setTimeout(() => {
+                    suggestSuccess.classList.add('hidden');
+                }, 5000);
+            } catch (error) {
+                console.error("Error adding document: ", error);
+                alert("There was an error submitting your word. Please try again.");
+            } finally {
+                // Reset button
+                suggestSubmitBtn.textContent = originalBtnText;
+                suggestSubmitBtn.disabled = false;
+            }
         });
     }
 });

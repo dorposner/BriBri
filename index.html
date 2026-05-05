@@ -107,6 +107,30 @@
                     </div>
                 </div>
             </div>
+
+            <!-- View: Suggest a Word -->
+            <div id="view-suggest" class="view hidden">
+                <h2 class="view-title">Suggest a Word</h2>
+                <div class="suggest-content">
+                    <p>Help us grow the dictionary! Submit a new word or phrase, and it will be reviewed before being added.</p>
+                    <form id="suggest-form" class="suggest-form">
+                        <div class="form-group">
+                            <label for="suggest-bribri">Bribri Word *</label>
+                            <input type="text" id="suggest-bribri" required placeholder="e.g. Tsìri">
+                        </div>
+                        <div class="form-group">
+                            <label for="suggest-translation">Translation *</label>
+                            <input type="text" id="suggest-translation" required placeholder="English, Spanish, or Hebrew">
+                        </div>
+                        <div class="form-group">
+                            <label for="suggest-context">Context / Example Sentence</label>
+                            <textarea id="suggest-context" rows="3" placeholder="How is this word used?"></textarea>
+                        </div>
+                        <button type="submit" id="suggest-submit-btn">Submit Word</button>
+                        <div id="suggest-success" class="success-message hidden">Thank you! Your word has been submitted for review.</div>
+                    </form>
+                </div>
+            </div>
         </main>
 
         <footer>
@@ -120,10 +144,11 @@
             <button class="tab-btn" data-target="view-categories">Categories</button>
             <button class="tab-btn" data-target="view-index">A-Z Index</button>
             <button class="tab-btn" data-target="view-guide">Guide</button>
+            <button class="tab-btn" data-target="view-suggest">Suggest</button>
         </nav>
     </div>
 
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 
 </html>
