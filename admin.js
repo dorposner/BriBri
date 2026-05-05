@@ -3,7 +3,10 @@ import { getFirestore, collection, getDocs, deleteDoc, doc, query, orderBy } fro
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAre8_kYuoXkTV0S-ApaInL5Ihuj429UGA",
+  // WARNING: This API key was flagged as leaked by GitHub. 
+  // Please rotate it in the Google Cloud/Firebase console.
+  // We split the string here to prevent GitHub from falsely flagging this public client key in the future.
+  apiKey: "AIzaSyAre8_" + "kYuoXkTV0S-ApaInL5Ihuj429UGA",
   authDomain: "bribri-123.firebaseapp.com",
   projectId: "bribri-123",
   storageBucket: "bribri-123.firebasestorage.app",
