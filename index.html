@@ -4,15 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Bribri Translator App</title>
-    <meta name="description" content="A static web-based translator and dictionary for the Bribri language.">
+    <title>Bribri Translator & Dictionary | Diccionario Bribri — Español, English & עברית</title>
+    <meta name="description" content="Free online Bribri language translator and dictionary (Costa Rica). Instant fuzzy search across Bribri, Spanish (Español), English, and Hebrew (עברית), with categories, A-Z index, and pronunciation guide.">
+    <meta name="keywords" content="Bribri translator, Bribri dictionary, Diccionario Bribri Español, Lengua Bribri Costa Rica, Bribri to English, Bribri to Spanish, מילון בריברי, Talamanca indigenous language, Dor Posner, Kesher Ecosystem">
+    <meta name="author" content="Dor Posner">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+    <link rel="canonical" href="https://bribri.kesher.me/">
+    <link rel="alternate" type="text/markdown" title="LLMs Info" href="https://bribri.kesher.me/llms.txt">
     <link rel="manifest" href="./manifest.json">
     <meta name="theme-color" content="#2D5A27">
     <link rel="apple-touch-icon" href="./icon.png">
     <link rel="icon" href="./icon.png" type="image/png">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bribri.kesher.me/">
+    <meta property="og:site_name" content="Bribri Translator — Kesher Ecosystem">
+    <meta property="og:title" content="Bribri Language Translator & Dictionary | Español, English, עברית">
+    <meta property="og:description" content="Discover and translate the indigenous Bribri language of Talamanca, Costa Rica across Bribri, Spanish, English, and Hebrew. 100% free & offline-ready.">
+    <meta property="og:image" content="https://bribri.kesher.me/icon.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="https://bribri.kesher.me/">
+    <meta name="twitter:title" content="Bribri Language Translator & Dictionary (Costa Rica)">
+    <meta name="twitter:description" content="Translate between indigenous Bribri, Spanish, English, and Hebrew with fuzzy search, categories, and tone guide.">
+    <meta name="twitter:image" content="https://bribri.kesher.me/icon.png">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.js"></script>
+
+    <!-- Schema.org JSON-LD (Connected to Kesher Ecosystem Knowledge Graph) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          "@id": "https://bribri.kesher.me/#app",
+          "name": "Bribri Language Dictionary & Translator",
+          "alternateName": ["Diccionario Traductor Bribri", "מילון ומתרגם שפת הבריברי"],
+          "url": "https://bribri.kesher.me/",
+          "image": "https://bribri.kesher.me/icon.png",
+          "applicationCategory": "EducationalApplication",
+          "operatingSystem": "All",
+          "inLanguage": ["bzd", "es", "en", "he"],
+          "isAccessibleForFree": true,
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "description": "An interactive offline-capable digital dictionary and quadrilingual translation tool (Bribri, Spanish, English, Hebrew) dedicated to preserving the endangered indigenous Bribri language of Talamanca, Costa Rica.",
+          "author": {
+            "@type": "Person",
+            "@id": "https://kesher.me/#dor-posner",
+            "name": "Dor Posner",
+            "url": "https://kesher.me/"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "@id": "https://kesher.me/#organization",
+            "name": "Kesher Ecosystem",
+            "url": "https://kesher.me/"
+          },
+          "isPartOf": {
+            "@type": "WebSite",
+            "@id": "https://kesher.me/#website",
+            "name": "Kesher — Dor Posner Portfolio & Product Ecosystem",
+            "url": "https://kesher.me/"
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://bribri.kesher.me/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What languages does the Bribri Translator support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "The Bribri Translator (bribri.kesher.me) supports instant fuzzy search and translation across four languages simultaneously: indigenous Bribri (ISO 639-3: bzd), Spanish (Español), English, and Hebrew (עברית)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Does the Bribri Dictionary work offline in Costa Rica?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Bribri Translator is built as an offline-first Progressive Web App (PWA) so students, researchers, and travelers in Talamanca and Puerto Viejo can look up Bribri vocabulary without an active internet connection."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -138,7 +226,7 @@
         </main>
 
         <footer>
-            <p>Created for the preservation and study of the Bribri language by Dor Posner.</p>
+            <p>Created for the preservation and study of the Bribri language by <a href="https://kesher.me" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">Dor Posner (Kesher Ecosystem)</a>.</p>
             <p style="margin-top: 0.5rem;"><a href="https://buymeacoffee.com/dorposner" target="_blank" rel="noopener noreferrer" style="color: var(--primary-color); font-weight: 600; text-decoration: none;">☕ Buy me a coffee</a></p>
         </footer>
 
